@@ -13,6 +13,13 @@ namespace RedBlackBST
                 tree.Add(i);
             }
 
+            for (int i = 1; i <= 8; i++)
+            {
+                tree.Remove(i);
+            }
+
+            tree.Remove(7);
+            tree.Remove(10);
             Console.ReadKey();
         }
     }
